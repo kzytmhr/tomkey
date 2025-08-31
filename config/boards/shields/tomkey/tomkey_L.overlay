@@ -24,7 +24,6 @@
 &trackball_listener {
     status = "okay";
     // input-processors = <&zip_temp_layer 1 400>;  // オートマウス無効化
-    input-processors = <&zip_xy_scaler 0.5>;  // カーソル移動：遅く調整
 
     scroll {
         layers = <2>;
