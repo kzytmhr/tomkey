@@ -21,11 +21,6 @@
     };
 };
 
-&mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <200>; // This is the value already set by default
-};
-
 &trackball_listener {
     status = "okay";
     // input-processors = <&zip_temp_layer 1 400>;  // オートマウス無効化
